@@ -1,5 +1,5 @@
 # virtual-ipv4
-A virtual implementation of some IPv4 features, primarily for educational purposes.
+A virtual implementation of some basic IPv4 features. This is primarily for educational purposes; getting acquainted with Python and its out-of-box network programming features.
 
 This is a basic implementation of the network layer for a host running on a virtual IP network, where UDP is used as the virtual network’s link layer.
 
