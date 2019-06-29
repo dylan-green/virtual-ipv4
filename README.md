@@ -3,7 +3,7 @@ A virtual implementation of some IPv4 features, primarily for educational purpos
 
 This is a basic implementation of the network layer for a host running on a virtual IP network, where UDP is used as the virtual network’s link layer.
 
-The program can be invoked on a unix command line via `python3 virtual-ip.py ip-addr ll-addr` where The `ip-addr` and `ll-addr` parameters correspond to the IPv4 address in CIDR notation (indicating the client’s subnet) and link layer address (UDP port number) of your host program respectively.
+The program can be invoked on a unix command line via `python3 virtual-ip.py ip-addr ll-addr` where the `ip-addr` and `ll-addr` parameters correspond to the IPv4 address in CIDR notation (indicating the client’s subnet) and link layer address (UDP port number) of your host program respectively.
 
 Running the program will initiate a basic CLI that will allow the user to supply basic information about the network.
 
