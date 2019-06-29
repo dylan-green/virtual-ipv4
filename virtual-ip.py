@@ -236,7 +236,7 @@ def main(args):
             args = user_input[2::]
             command = "_".join(user_input[0:2])
             if command in commands:
-                # Dynamic dispatch of the network getters/setters
+                # dispatch the network getters/setters
                 network.actions[command](args)
 
 
