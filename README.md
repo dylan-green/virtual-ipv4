@@ -25,7 +25,7 @@ The following commands are allow the user to interact with the virtual network:
 
 `mtu get` : print the currently stored MTU (the default MTU should be 1500)
 
-The network can also receive messages from other hosts - when your the host receives an IPv4 packet with the protocol indicator set to 0, the payload will be printed to stdout in the format:
+The network can also receive messages from other hosts - when this host receives an IPv4 packet with the protocol indicator set to 0, the payload will be printed to stdout in the format:
 
 `Message received from [ip-addr]:  "[message]"`
 
