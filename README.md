@@ -7,7 +7,7 @@ The program can be invoked on a unix command line via `python3 virtual-ip.py ip-
 
 Running the program will initiate a basic CLI that will allow the user to supply basic information about the network.
 
-The following commands are allow the user to interact with the virtual network:
+The following commands are available to interact with the virtual network:
 
 `gw set [ip-addr]` : set the gateway IP address of the subnet the client is a part of to [ip-addr] (overriding any existing gateway address)
 
